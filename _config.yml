@@ -29,11 +29,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-#theme: pages-themes/architect
+theme: minima
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
-remote_theme: pages-themes/architect@v0.2.0
+#remote_theme: pages-themes/architect@v0.2.0
 
 # Exclude from processing.
 # The following items will not be processed, by default.
