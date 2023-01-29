@@ -33,6 +33,7 @@ copyright: "2023"
 rss: RSS
 
 # Build settings
+show_excerpts: true
 theme: minima
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one

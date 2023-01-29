@@ -3,6 +3,7 @@ layout: post
 title:  "Making GitHub Pages blog"
 date:   2023-01-28 21:26:58 +0100
 categories: blog
+excerpt: This is the first article in this blog, so I would like to share some information about the process of setting up GitHub Pages with Jekyll.
 ---
 
 Hello there.
