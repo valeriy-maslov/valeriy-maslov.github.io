@@ -28,6 +28,7 @@ domain: "valeriy-maslov.github.io"
 url: "https://valeriy-maslov.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  valeriy-maslov
+linkedin_username: valeriymaslov
 copyright: "2023"
 rss: RSS
 
