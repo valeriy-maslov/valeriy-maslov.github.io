@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header about-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <div class="about-photo"><img src="{{ '/assets/me.jpeg' | relative_url }}"></div>
+    <h2>Valeriy Maslov</h2>
+    <div class="about-position">Software Development Engineer | Cloud Architect | Mentor</div>
+    <div class="about-socials">{% include social.html %}</div>
+    <div class="about-email"><a href="mailto:{{ site.email }}">{{ site.email }}</a> </div>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

@@ -28,6 +28,7 @@
   @include relative-font-size(0.75);
   color: $grey-color;
   margin: 5px;
+  display: inline-block;
 }
 
 .site-nav {
@@ -213,6 +214,52 @@
   @include relative-font-size(1.5);
 }
 
+/**
+ * About
+ */
+.about-header {
+  .post-title {
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  .about-position {
+    text-align: center;
+    @include relative-font-size(0.95);
+  }
+  .about-socials {
+    .social-media-list{
+      margin-bottom: 0;
+      text-align: center;
+      li {
+        display: inline;
+        svg {
+          margin: 10px;
+        }
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+  .about-photo {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      border: 1px solid var(--color-background-container-dark);
+    }
+  }
+  .about-email {
+    text-align: center;
+  }
+}
 
 
 /**
