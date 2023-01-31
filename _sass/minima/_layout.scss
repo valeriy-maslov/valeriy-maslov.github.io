@@ -5,10 +5,19 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-  background-color: aliceblue;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  form {
+    display: inline-block;
+    float: right;
+    input {
+      margin-top: 12px;
+      height: 25px;
+      margin-right: 15px;
+    }
+  }
 }
 
 .site-title {
@@ -116,7 +125,6 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
-  background-color: aliceblue;
 }
 
 .footer-heading {
