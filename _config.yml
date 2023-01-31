@@ -24,8 +24,8 @@ email: valeriy.maslov.dev@gmail.com
 #description: >- # this means to ignore newlines until "baseurl:"
 description: "Software engineering blog"
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: "valeriy-maslov.github.io"
-url: "https://valeriy-maslov.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "vmaslov.dev"
+url: "https://vmaslov.dev" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  valeriy-maslov
 linkedin_username: valeriymaslov
@@ -33,7 +33,6 @@ copyright: "2023"
 rss: RSS
 
 # Build settings
-environment: production
 show_excerpts: true
 theme: minima
 plugins:
