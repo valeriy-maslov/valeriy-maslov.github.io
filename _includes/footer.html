@@ -22,7 +22,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.author | escape -}}&nbsp;&copy;&nbsp;{{- site.copyright | escape -}}. All rights reserved. </p>
+        <p>{{- site.author | escape -}}&nbsp;&copy;&nbsp;{{- site.copyright | escape -}}. All rights reserved. {%- if jekyll.environment == "production" -%}P{%- endif -%}</p>
       </div>
     </div>
 
