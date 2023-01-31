@@ -5,9 +5,7 @@ permalink: /comment-policy
 ---
 
 <p class="centered">
-
-![Comment Policy](assets/comment-policy.jpg "Comment Policy")
-
+    <img src="/assets/comment-policy.jpg" alt="Comment Policy" />
 </p>
 
 # Comment Policy of vmaslov.dev
