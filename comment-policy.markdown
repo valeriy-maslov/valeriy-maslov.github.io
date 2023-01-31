@@ -2,6 +2,7 @@
 layout: default
 title: Comment Policy
 permalink: /comment-policy
+hide_nav: true
 ---
 
 <p class="centered">
