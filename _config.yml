@@ -33,6 +33,7 @@ copyright: "2023"
 rss: RSS
 
 # Build settings
+environment: production
 show_excerpts: true
 theme: minima
 plugins:
