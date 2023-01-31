@@ -61,6 +61,13 @@ Despite the good initial documentation those tools still have some problems, lik
 Maybe you will face them, maybe not. But knowing this will help you set up GitHub Pages in
 a few minutes.
 
+### UPD from Jan 31: 
+
+I found recently [this wonderful website](https://jekyllcodex.org/without-plugins/) containing good recipes to do stuff
+on Jekyll based website without the plugins. Thanks to this one my blog
+has a search box from Google. So if you want make your blog more pleasant 
+I recommend you to check this out.
+
 
 [installing-ruby]: https://www.ruby-lang.org/en/documentation/installation/
 [jekyll-ghp-setup-doc]:   https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
