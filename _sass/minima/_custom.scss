@@ -1,3 +1,13 @@
-p.centered {
+.illustration {
+  height: 400px;
   text-align: center;
+  margin-bottom: $spacing-unit;
+  img {
+    display: block;
+    max-width:100%;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
 }
